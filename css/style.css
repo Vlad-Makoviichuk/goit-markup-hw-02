@@ -1,0 +1,235 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-logo-color: #000000;
+  --main-bgc-color: #ffffff;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --header-contacts-color: #757575;
+  --bgc-hero-color: #2f303a;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --hover-color: #188ce8;
+  --bgc-team-color: #f5f4fa;
+  --main-fontfamily: "Roboto", sans-serif;
+  --logo-fontfamily: "Raleway", sans-serif;
+}
+/* основной цвет текста #212121;
+основной цвет логотипа #000000;
+цвет логотипа футера #FFFFFF;
+цвет контактов футера rgba(255, 255, 255, 0.6);
+цвет контактов хедера #757575;
+background hero #2F303A;
+другорядный цвет текста  #757575
+цвет акцента №2196F3
+цвет ховера для кнопки №188CE8
+цвет background team #F5F4FA
+*/
+body {
+  font-family: var(--main-fontfamily);
+  color: var(--primary-text-color);
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: var(--logo-fontfamily);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-logo-color);
+}
+
+.prefics {
+  color: var(--accent-color);
+}
+/* ---------------HEADER--------------- */
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--header-contacts-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* ---------------END HEADER--------------- */
+
+/* --------HERO--------- */
+
+.hero {
+  background-color: var(--bgc-hero-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--main-bgc-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-bgc-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-color);
+}
+
+/* ------------END HERO--------------- */
+
+/* --------------Особенности--------------- */
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
+/*---------END ОСОБЕННОСТИ--------- */
+
+/* ----------Наша Команла------------ */
+.team {
+  background-color: var(--bgc-team-color);
+}
+
+.teammate-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.subtitle-team {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/* ----------End Наша Команда----------- */
+
+/* ----------Footer-------- */
+.footer {
+  background-color: var(--bgc-hero-color);
+}
+
+.footer-logo {
+  color: var(--main-bgc-color);
+}
+.footer-suptitle {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-bgc-color);
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--footer-contacts-color);
+}
+
+/* ----------End footer----------- */
+
+/* Portfolio */
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--main-bgc-color);
+  background-color: var(--accent-color);
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--header-contacts-color);
+}
+/* End Portfolio */
